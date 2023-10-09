@@ -1,0 +1,32 @@
+.navigation {
+
+    @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+        grid-gap: 60px;
+    }
+
+    display: grid;
+    grid-template-columns: 120px 127px 64px 30px;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+    
+
+    &_link {
+        @media screen and (max-width: 800px) {
+            font-size: 34px;
+            
+        }
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        letter-spacing: 3px;
+        transition: 0.6s;
+
+        &:hover {
+            transform: scale(120%);
+           
+        }
+    }
+}

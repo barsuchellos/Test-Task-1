@@ -1,0 +1,42 @@
+.containerBox {
+    display: grid;
+
+
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, minmax(200px, 400px));
+    grid-gap: 20px;
+    padding: 20px;
+
+
+}
+
+.title {
+    font-size: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .containerBox {
+        grid-template-columns: 270px 270px;
+        grid-gap: 10px;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .containerBox {
+        grid-template-columns: 200px 200px;
+        padding: 10px;
+        grid-gap: 0px;
+    }
+}

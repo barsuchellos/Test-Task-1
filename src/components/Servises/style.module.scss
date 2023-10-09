@@ -1,0 +1,51 @@
+.box {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    min-width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid white;
+
+    font-family: 'Montserrat', sans-serif;
+    @media screen and (max-width:1200px) {
+        overflow-x: auto;
+        justify-content: flex-start;
+    }
+}
+
+.title {
+    font-size: 50px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
+}
+
+.link {
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 20px;
+    margin: 5px;
+    transition: 0.6s;
+    text-wrap: nowrap;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+
+    &:global(.active) {
+        background-color: white;
+        color: black;
+    }
+}
