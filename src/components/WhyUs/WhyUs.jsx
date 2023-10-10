@@ -4,7 +4,7 @@ import styles from './styles.module.scss'
 
 const WhyUs = () => {
     return (
-        <div>
+        <div style={{marginTop:100}}>
             <h2 className={styles.title}>Why Us</h2>
             <div className={styles.containerBox}>
                 <Container/>

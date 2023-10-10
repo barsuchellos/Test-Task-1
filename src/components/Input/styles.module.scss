@@ -1,0 +1,20 @@
+.input {
+    padding: 8px;
+
+    color:  white;
+    width: clamp(250px, 50vw, 500px);
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    border-radius: 4px;
+
+    
+    &::placeholder {
+        color: #ccc;
+    }
+
+    &:visited {
+        border-color: white;
+    }
+}

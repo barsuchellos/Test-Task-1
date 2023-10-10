@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss'
 
-const Button = ({text}) => {
+const Button = ({text='name'}) => {
     return (
         <button className={styles.button}>
             {text}

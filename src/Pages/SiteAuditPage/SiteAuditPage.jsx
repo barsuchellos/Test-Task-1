@@ -2,10 +2,10 @@ import React from 'react';
 import Button from '../../components/Button/Button';
 import styles from '../LandingPage/styles.module.scss'
 
-import warning from '../../images/alert.png'
-import opportunities from '../../images/opportunities.png'
-import trend from '../../images/trend.png'
-import idea from '../../images/idea.png'
+import warning from '../../images/icons/alert.png'
+import opportunities from '../../images/icons/opportunities.png'
+import trend from '../../images/icons/trend.png'
+import idea from '../../images/icons/idea.png'
 import sale from '../../images/sale-report.png'
 
 const SiteAuditPage = () => {

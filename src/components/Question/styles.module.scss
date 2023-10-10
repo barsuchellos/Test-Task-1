@@ -1,0 +1,57 @@
+.container {
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid white;
+
+
+
+    &_question {
+        display: flex;
+        padding: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        transition: .5s;
+
+        &:hover {
+            background-color: #333;
+        }
+
+        &:focus {
+            background-color: #fff;
+        }
+
+    }
+
+    &_title {
+        font-size: clamp(22px, 10vw, 30px);
+    }
+
+    &_answer {
+        padding: 10px;
+        font-size: clamp(20px, 10vw, 22px);
+        transform: translateY(-20px);
+        animation: fadeIn 1s ease forwards;
+        cursor: default;
+    }
+
+
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+
+    }
+
+    75% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

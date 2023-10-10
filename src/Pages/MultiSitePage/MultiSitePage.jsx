@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from '../LandingPage/styles.module.scss'
-import image from '../../images/landing-page (1).png'
+import image from '../../images/icons/landing-page (1).png'
 import Button from '../../components/Button/Button';
 
 
-import userAvatar from '../../images/user-avatar (1).png'
-import program from '../../images/program.png'
-import responsive from '../../images/responsive.png'
+import userAvatar from '../../images/icons/user-avatar (1).png'
+import program from '../../images/icons/program.png'
+import responsive from '../../images/icons/responsive.png'
 
 const MultiSitePage = () => {
     return (

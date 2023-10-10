@@ -5,8 +5,8 @@ import Button from '../../components/Button/Button';
 import styles from '../LandingPage/styles.module.scss'
 
 import services from '../../images/negotiation.png'
-import time from '../../images/time.png'
-import idea from '../../images/idea.png'
+import time from '../../images/icons/time.png'
+import idea from '../../images/icons/idea.png'
 
 
 

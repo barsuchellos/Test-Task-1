@@ -1,10 +1,12 @@
 import React from 'react';
 import landing from '../../images/landing-page.png'
 import Button from '../../components/Button/Button';
-import complete from '../../images/completed-task (1).png'
+
 import styles from './styles.module.scss'
-import basket from '../../images/wicker-basket.png'
-import bag from '../../images/shop.png'
+
+import complete from '../../images/icons/completed-task (1).png'
+import basket from '../../images/icons/wicker-basket.png'
+import bag from '../../images/icons/shop.png'
 
 const LandingPage = () => {
     return (

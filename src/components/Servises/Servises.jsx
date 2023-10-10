@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import pages from '../../Json/pages.json'
+import pages from '../../json/pages.json'
 import styles from './style.module.scss'
 
 import IndividualConsultationPage from '../../Pages/IndividualConsultationPage/IndividualConsultationPage';
@@ -13,6 +13,7 @@ import SiteAuditPage from '../../Pages/SiteAuditPage/SiteAuditPage';
 const Servises = () => {
 
     const elements = pages.map(({ title, path }) => {
+        console.log(path);
         return (
             <NavLink to={path} className={styles.link}>{title}</NavLink>
         )

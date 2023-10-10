@@ -4,9 +4,9 @@ import Button from '../../components/Button/Button';
 
 
 import webShop from '../../images/online-payment.png'
-import packages from '../../images/packages.png'
-import catalog from '../../images/catalog.png'
-import search from '../../images/search.png'
+import packages from '../../images/icons/packages.png'
+import catalog from '../../images/icons/catalog.png'
+import search from '../../images/icons/search.png'
 
 const InternetShopPage = () => {
     return (

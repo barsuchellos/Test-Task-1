@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss'
-import posts from '../.././Json/posts.json'
-import lock from "../../images/icons8-lock.svg"
+import posts from '../.././json/posts.json'
 
 const Container = () => {
     const elements = posts.map(({ id, title, description, link }) => {
