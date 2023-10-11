@@ -12,7 +12,7 @@ const Header = () => {
                 <img src={logo} alt="logo" className={styles.logoImage} />
             </div>
 
-            <Navbar name={navbar}/>
+            <Navbar name={navbar} />
             <div className={styles.button_container}>
                 <Button text='Замовити' />
             </div>

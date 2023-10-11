@@ -7,38 +7,7 @@
         font-size: clamp(40px, 10vw, 90px);
         text-align: center;
         letter-spacing: 4px;
-    }
-
-    &_projectBox {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        justify-content: center;
-        place-items: center;
-        grid-column: 2/2;
-    }
-
-    &_project {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        width: 600px;
-        height: 600px;
-        background-image: url(../../images/landings/landing2.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        transition: 1s;
-
-        &:hover{
-            filter: blur(5px);
-
-            .Button {
-                filter: none;
-             }
-        }
+        margin-top: 80px;
+        margin-bottom: clamp(20px, 10vw, 80px);
     }
 }
-
-
-

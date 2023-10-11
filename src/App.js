@@ -1,4 +1,5 @@
 import styles from './styles/app.module.scss'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import WhyUs from './components/WhyUs/WhyUs';
 import Servises from './components/Servises/Servises';
@@ -9,6 +10,8 @@ import Media from './components/Media/Media';
 import Brief from './components/Brief/Brief';
 import OurProjects from './components/OurProjects/OurProjects';
 
+
+import Slider from './components/Slider/Slider';
 function App() {
   return (
     <div className={styles.app}>
@@ -22,6 +25,7 @@ function App() {
       <Form />
       <hr></hr>
       <Media />
+
     </div>
   );
 }

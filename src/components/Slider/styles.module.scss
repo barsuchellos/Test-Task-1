@@ -1,0 +1,29 @@
+
+.landing_1 {
+    
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.button :hover {
+
+    filter: blur(2px);
+
+}
+.images {
+    height: clamp(600px, 15vw, 720px);
+    width: clamp(700px, 15vw, 720px);
+}
+.video {
+    width: 100%;
+    height: clamp(700px, 25vw, 720px);
+    
+    
+    
+    
+}
