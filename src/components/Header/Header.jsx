@@ -3,24 +3,9 @@ import logo from '../../images/logo.png'
 import styles from './styles.module.scss'
 import Button from '../Button/Button';
 import Navbar from '../Navbar/Navbar';
-//import navbar from '../../json/navbar.json'
+import navbar from '../../json/navbar'
 
 const Header = () => {
-    const navbar = [
-        {
-            "title": "SERVICES"
-        },
-        {
-            "title": "PROJECTS"
-        },
-        {
-            "title": "TEAM"
-        },
-        {
-            "title": "UA"
-        }
-    ]
-
     return (
         <header className={styles.header}>
             <div className={styles.button_container}>
