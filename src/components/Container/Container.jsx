@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss'
-import posts from '../.././json/posts.json'
+import { posts } from '../../data/posts'
 
 const Container = () => {
     const elements = posts.map(({ id, title, description, link }) => {
