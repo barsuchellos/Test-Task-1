@@ -10,8 +10,6 @@ import Media from './components/Media/Media';
 import Brief from './components/Brief/Brief';
 import OurProjects from './components/OurProjects/OurProjects';
 
-
-import Slider from './components/Slider/Slider';
 function App() {
   return (
     <div className={styles.app}>

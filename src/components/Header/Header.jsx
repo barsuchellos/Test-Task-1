@@ -3,7 +3,7 @@ import logo from '../../images/logo.png'
 import styles from './styles.module.scss'
 import Button from '../Button/Button';
 import Navbar from '../Navbar/Navbar';
-import navbar from '../../json/navbar.json'
+import navbar from '../../../src/json/navbar.json'
 
 const Header = () => {
     return (
