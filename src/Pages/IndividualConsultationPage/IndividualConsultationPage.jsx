@@ -32,7 +32,7 @@ const IndividualConsultationPage = () => {
                         <p>Ви можете вказати додаткові запитання щодо вашого бізнесу та, за попереднім узгодженням, я включу їх в нашу консультацію</p>
                     </div>
                 </div>
-                <Button text='Детальніше' />
+                <Button text='Хочу' />
             </div>
             <img
                 src={services}

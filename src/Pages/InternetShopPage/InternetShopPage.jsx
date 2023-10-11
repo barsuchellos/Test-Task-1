@@ -47,7 +47,7 @@ const InternetShopPage = () => {
                         </p>
                     </div>
                 </div>
-                <Button text='Детальніше' />
+                <Button text='Хочу' />
             </div>
             <img
                 src={webShop}

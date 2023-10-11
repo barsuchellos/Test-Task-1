@@ -8,3 +8,9 @@
     background-color: black;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media (max-width:800px) {
+    .line {
+        margin-top: 50px;
+    }
+}

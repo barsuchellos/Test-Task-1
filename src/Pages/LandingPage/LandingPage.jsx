@@ -36,7 +36,7 @@ const LandingPage = () => {
                         <p>Вам потрібне коротке портфоліо спеціаліста або сайт-візитка</p>
                     </div>
                 </div>
-                <Button text='Детальніше' />
+                <Button text='Хочу' />
             </div>
             <img
                 src={landing}
