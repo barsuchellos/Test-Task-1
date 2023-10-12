@@ -12,7 +12,9 @@ const Header = () => {
                 <img src={logo} alt="logo" className={styles.logoImage} />
             </div>
 
-            <Navbar name={navbar} />
+            <h1 className={styles.header_title}>Easy, quality, IT -
+                <span className={styles.header_titleBold}>w</span>inning <span className={styles.header_titleBold}>solutions</span> for your business
+            </h1>
             <div className={styles.button_container}>
                 <Button text='Замовити' />
             </div>

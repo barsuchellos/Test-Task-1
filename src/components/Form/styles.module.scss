@@ -11,7 +11,9 @@
         font-size: clamp(40px, 10vw, 110px);
         font-family: 'Montserrat', sans-serif;
 
-
+        &Bold {
+            font-weight: 700;
+        }
     }
 
     &_link {

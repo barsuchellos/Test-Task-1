@@ -7,7 +7,7 @@ import Slider from '../Slider/Slider';
 const OurProjects = () => {
     return (
         <div className={styles.container}>
-            <h3 className={styles.container_title}>Our Projects:</h3>
+            <h3 className={styles.container_title}>Наші проекти:</h3>
             <Slider />
         </div>);
 };

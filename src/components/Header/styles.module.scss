@@ -12,6 +12,19 @@
     align-content: center;
     align-items: center;
     width: 100%;
+
+
+    &_title {
+        font-weight: 300;
+        font-size: clamp(27px, 10vw, 42px);
+        text-align: center;
+        padding: 10px;
+        letter-spacing: 3px;
+
+        &Bold {
+            font-weight: 700;
+        }
+    }
 }
 
 .logoImage {

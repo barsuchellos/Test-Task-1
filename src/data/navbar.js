@@ -1,6 +1,6 @@
 export const navbar = [
     {
-        "title":"VADIM"
+        "title":"SERVICES"
     },
     {
         "title":"PROJECTS"
