@@ -2,7 +2,7 @@ export const pages =
 [
     {
         "title": "Landing page",
-        "path": "/LandingPage"
+        "path": "/"
     },
     {
         "title": "Багатосторінковий сайт",

@@ -27,7 +27,7 @@ const Servises = () => {
                     {elements}
                 </div>
                 <Routes>
-                    <Route path='/LandingPage' element={<LandingPage />} />
+                    <Route exact path='/' element={<LandingPage />} />
                     <Route path='/MultiSitePage' element={<MultiSitePage />} />
                     <Route path='/InternetShopPage' element={<InternetShopPage />} />
                     <Route path='/SiteAuditPage' element={<SiteAuditPage />} />
