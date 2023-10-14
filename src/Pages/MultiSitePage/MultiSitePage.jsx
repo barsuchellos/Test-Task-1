@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../LandingPage/styles.module.scss'
 import image from '../../images/icons/landing-page (1).png'
-import Button from '../../components/Button/Button';
+import Button from '../../components/Common/Button/Button';
 
 
 import userAvatar from '../../images/icons/user-avatar (1).png'

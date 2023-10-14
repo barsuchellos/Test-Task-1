@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import { pages } from '../../data/pages'
+import { pages } from '../../../data/pages'
 import styles from './style.module.scss'
 
-import IndividualConsultationPage from '../../Pages/IndividualConsultationPage/IndividualConsultationPage';
-import InternetShopPage from '../../Pages/InternetShopPage/InternetShopPage';
-import LandingPage from '../../Pages/LandingPage/LandingPage';
-import MultiSitePage from '../../Pages/MultiSitePage/MultiSitePage';
-import SiteAuditPage from '../../Pages/SiteAuditPage/SiteAuditPage';
+import IndividualConsultationPage from '../../../Pages/IndividualConsultationPage/IndividualConsultationPage';
+import InternetShopPage from '../../../Pages/InternetShopPage/InternetShopPage';
+import LandingPage from '../../../Pages/LandingPage/LandingPage';
+import MultiSitePage from '../../../Pages/MultiSitePage/MultiSitePage';
+import SiteAuditPage from '../../../Pages/SiteAuditPage/SiteAuditPage';
 
 
 const Servises = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../LandingPage/styles.module.scss'
-import Button from '../../components/Button/Button';
+import Button from '../../components/Common/Button/Button';
 
 
 import webShop from '../../images/online-payment.png'

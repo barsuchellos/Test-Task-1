@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss'
-import { posts } from '../../data/posts'
-import photo from '../../images/whyUs/lock.png'
+import { posts } from '../../../data/posts'
 
 
 const Container = () => {

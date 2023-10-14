@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../Container/Container';
+import Container from '../../Common/Container/Container';
 import styles from './styles.module.scss'
 
 const WhyUs = () => {

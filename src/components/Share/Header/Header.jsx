@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../../images/logo.png'
 import styles from './styles.module.scss'
-import Button from '../Button/Button';
-import Navbar from '../Navbar/Navbar';
+import Button from '../Common/Button/Button';
+import Navbar from '../Share/Navbar/Navbar';
 import { navbar } from '../../data/navbar'
 
 const Header = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.scss'
-import Question from '../Question/Question';
+import Question from '../../Common/Question/Question';
 const Faq = () => {
 
     return (

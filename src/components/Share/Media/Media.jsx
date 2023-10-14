@@ -1,8 +1,8 @@
 import styles from './styles.module.scss'
-import instagram from '../../images/social_media/Instagram (1).svg'
-import facebook from '../../images/social_media/Facebook (1).svg'
-import gitHub from '../../images/social_media/GitHub.svg'
-import twitter from '../../images/social_media/Twitter (1).svg'
+import instagram from '../../../images/social_media/Instagram (1).svg'
+import facebook from '../../../images/social_media/Facebook (1).svg'
+import gitHub from '../../../images/social_media/GitHub.svg'
+import twitter from '../../../images/social_media/Twitter (1).svg'
 
 
 const Media = () => {

@@ -1,8 +1,7 @@
 import React from 'react';
 import { Carousel, Button } from 'react-bootstrap'
 import styles from './styles.module.scss'
-import images from '../../images/landings/landing2.png'
-import video from '../../video/XiaoYing_Video_1697038318577_HD.mp4'
+import video from '../../../video/XiaoYing_Video_1697038318577_HD.mp4'
 
 const Slider = () => {
     return (

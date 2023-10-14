@@ -1,8 +1,8 @@
 import React from 'react';
 
 import styles from './styles.module.scss'
-import Button from '../Button/Button';
-import Input from '../Input/Input';
+import Button from '../../Common/Button/Button';
+import Input from '../../Common/Input/Input';
 
 const Form = () => {
     return (

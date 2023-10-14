@@ -1,6 +1,6 @@
 import React from 'react';
 import landing from '../../images/landing-page.png'
-import Button from '../../components/Button/Button';
+import Button from '../../components/Common/Button/Button';
 
 import styles from './styles.module.scss'
 

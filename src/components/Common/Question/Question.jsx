@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import icon from '../../images/icons/add.png'
+import icon from '../../../images/icons/add.png'
 import styles from './styles.module.scss'
 
 const Question = () => {
