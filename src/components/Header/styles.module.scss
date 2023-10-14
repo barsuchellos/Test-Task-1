@@ -17,10 +17,13 @@
     &_title {
         font-weight: 300;
         font-size: clamp(27px, 10vw, 42px);
-        text-align: center;
+        
         padding: 10px;
         letter-spacing: 3px;
 
+        @media screen and (max-width: 800px){
+            text-align: center;
+        }
         &Bold {
             font-weight: 700;
         }

@@ -1,7 +1,7 @@
 .container {
     margin-bottom: 8px;
     cursor: pointer;
-    transition: .5s;
+    transition: 1s;
     border: 1px solid white;
 
 
@@ -18,7 +18,7 @@
             background-color: #333;
         }
 
-        &:focus {
+        &:focus {   
             background-color: #fff;
         }
 
@@ -37,8 +37,23 @@
     }
 
 
+    &Icon:active {
+        
+        transform: rotate(360deg);
+    }
+
 
 }
+
+.rotate {
+    transition: transform 0.5s ease;
+}
+
+.clicked {
+    background-color: #333;
+}
+
+
 
 @keyframes fadeIn {
     0% {

@@ -5,6 +5,7 @@ import photo from '../../images/whyUs/lock.png'
 
 
 const Container = () => {
+
     const elements = posts.map(({ id, title, description, link }) => {
         return (
             <li key={id} className={styles.container}>
