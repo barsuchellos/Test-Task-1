@@ -19,7 +19,7 @@ const Media = () => {
                         className={styles.socialMediaBox_icon}
                     />
                     <p className={styles.socialMediaBox_link}>
-                        https://www.instagram.com/
+                        instagram.com
                     </p>
                 </a>
                 <a href='https://www.facebook.com/' className={styles.socialMediaBox_link_box}>
@@ -29,7 +29,7 @@ const Media = () => {
                         className={styles.socialMediaBox_icon}
                     />
                     <p className={styles.socialMediaBox_link}>
-                        https://www.facebook.com/
+                        facebook.com
                     </p>
                 </a>
                 <a href='https://github.com/' className={styles.socialMediaBox_link_box}>
@@ -39,7 +39,7 @@ const Media = () => {
                         className={styles.socialMediaBox_icon}
                     />
                     <p className={styles.socialMediaBox_link}>
-                        https://github.com/
+                        github.com
                     </p>
                 </a>
                 <a href='https://twitter.com/' className={styles.socialMediaBox_link_box}>
@@ -49,7 +49,7 @@ const Media = () => {
                         className={styles.socialMediaBox_icon}
                     />
                     <p className={styles.socialMediaBox_link}>
-                        https://twitter.com/
+                        twitter.com
                     </p>
                 </a>
             </div>

@@ -21,9 +21,7 @@ function App() {
       <Brief />
       <Faq />
       <Form />
-      <hr></hr>
       <Media />
-
     </div>
   );
 }
