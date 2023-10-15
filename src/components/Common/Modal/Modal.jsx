@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './stle.module.scss'
 import icon from '../../../images/modal/chat.png'
@@ -9,13 +9,33 @@ const modal = document.getElementById("modal-root");
 
 const Modal = () => {
     const [visible, setVisible] = useState(false);
+    const [opacity, setOpacity] = useState(true);
     const realTime = new Date();
-
     const minutes = realTime.getMinutes() < 10 ? `0${realTime.getMinutes()}` : realTime.getMinutes();
 
     const handleClick = () => {
         setVisible((prev) => !prev);
     }
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const isAtBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
+
+            if (isAtBottom) {
+                setOpacity(false);
+                setVisible(false)
+            } else {
+                setOpacity(true);
+            }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        }
+    }, []);
+
     return createPortal(
         (
             <>
@@ -52,7 +72,7 @@ const Modal = () => {
                             <p className={styles.modal_linksContainerTitle}>Розпочати чат в</p>
                             <div className={styles.modal_linksContainer_box}>
                                 <div style={{ backgroundColor: '#0088cc' }} className={`${styles.modal_linksContainer_box_1} ${telegram}`}>
-                                    <img src={telegram} alt="" style={{ height: 50, width: 50 }}  />
+                                    <img src={telegram} alt="" style={{ height: 50, width: 50 }} />
                                     <p>Telegram</p>
                                 </div>
 
@@ -65,9 +85,13 @@ const Modal = () => {
                         </div>
                     </div>
                 }
-                <div className={styles.modal} onClick={handleClick}>
-                    <img src={icon} alt="iconChat" />
-                </div>
+                {
+                    opacity &&
+                        <div className={styles.modal} onClick={handleClick}>
+                            <img src={icon} alt="iconChat" />
+                        </div>
+                }
+
             </>
         ), modal
     )
