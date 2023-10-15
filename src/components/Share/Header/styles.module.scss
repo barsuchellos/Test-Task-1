@@ -6,6 +6,10 @@
         align-content: space-around;
     }
 
+    @media screen and (max-width: 500px) {
+        align-content: space-between;
+    }
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -23,6 +27,7 @@
 
         @media screen and (max-width: 800px){
             text-align: center;
+            line-height: 50px;
         }
         &Bold {
             font-weight: 700;
@@ -34,6 +39,8 @@
     @media screen and (max-width: 800px) {
         width: 250px;
         height: 250px;
+
+        cursor: pointer;
     }
 
     width: 150px;
@@ -44,8 +51,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media screen and (max-width: 800px) {
-        margin: 20px;
-    }
+    margin-bottom: 10px;
 }
