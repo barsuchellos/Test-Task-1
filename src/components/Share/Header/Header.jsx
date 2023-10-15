@@ -14,7 +14,7 @@ const Header = () => {
                 <span className={styles.header_titleBold}>w</span>inning <span className={styles.header_titleBold}>solutions</span> for your business
             </h1>
             <div className={styles.button_container}>
-                <Button text='Замовити' />
+                <Button text='Замовити' style={{marginBottom:70}}/>
             </div>
         </header>
     );
