@@ -10,9 +10,12 @@ import Media from './components/Share/Media/Media';
 import Brief from './components/Share/Brief/Brief';
 import OurProjects from './components/Share/OurProjects/OurProjects';
 
+import Modal from './components/Common/Modal/Modal';
+
 function App() {
   return (
     <div className={styles.app}>
+      <Modal />
       <Header />
       <hr className={styles.line}></hr>
       <WhyUs />

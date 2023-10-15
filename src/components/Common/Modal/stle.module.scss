@@ -1,0 +1,146 @@
+.modal {
+    background-color: #484747;
+
+
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    inset: auto 0px 0px auto;
+    z-index: 999999999999;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border-radius: 50%;
+    padding: 10px;
+
+    font-size: 20px;
+    transition: .3s;
+
+    &:hover {
+        background-color: #515050;
+    }
+
+    &_box {
+        font-family: 'Montserrat', sans-serif;
+
+        width: 350px;
+        position: fixed;
+        inset: auto 20px 100px auto;
+        background-color: #484747;
+        border-radius: 8px;
+        padding: 20px;
+        display: grid;
+        grid-gap: 20px;
+        z-index: 999999999999;
+        transition: 1s;
+        animation: visible 1s;
+    }
+
+    &_account {
+        display: grid;
+        grid-template-columns: 70px 210px;
+
+        &Icon {
+            width: 54px;
+            height: 54px;
+
+            border-radius: 50%;
+            background-image: url('../../../images/modal/girl.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        &Description {
+            display: grid;
+            grid-gap: 6px;
+
+            &_name {
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            &_text {
+                font-size: 13px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    &_time {
+        text-align: center;
+    }
+
+    &_chat {
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 0px 6px 6px 6px;
+
+        p {
+            color: black;
+            display: flex;
+            flex-wrap: nowrap;
+            line-height: 18px;
+        }
+    }
+
+    &_linksContainer {
+        display: grid;
+        place-items: center;
+        grid-gap: 18px;
+
+        &Title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        &_box {
+            display: grid;
+            grid-template-columns: repeat(2, 140px);
+            grid-gap: 20px;
+            place-items: center;
+            align-items: center;
+
+            &_1 {
+                display: grid;
+                grid-template-columns: 52px 60px;
+                border-radius: 6px;
+                cursor: pointer;
+                height: 52px;
+                width: 140px;
+                place-items: center;
+                box-sizing: border-box;
+                transition: .6s;
+
+                &:nth-child(odd):hover {
+                    background-color: #08a2ef !important;
+                }
+
+                &:nth-child(even):hover {
+                    background-color: #7a6ac8 !important;
+                }
+            }
+        }
+
+
+    }
+}
+
+.telegram :hover {
+    background-color: green !important;
+}
+
+
+@keyframes visible {
+    from {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
