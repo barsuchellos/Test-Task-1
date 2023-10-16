@@ -1,6 +1,6 @@
 .header {
     
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr;
         height: 100vh;
         align-content: space-around;
@@ -25,7 +25,7 @@
         padding: 10px;
         letter-spacing: 3px;
 
-        @media screen and (max-width: 800px){
+        @media screen and (max-width: 1000px){
             text-align: center;
             line-height: 50px;
         }
@@ -36,7 +36,7 @@
 }
 
 .logoImage {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
         width: 250px;
         height: 250px;
 
@@ -52,4 +52,9 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 800px) {
+        margin-bottom: 60px;
+    }
 }
+

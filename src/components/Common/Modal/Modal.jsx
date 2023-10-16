@@ -9,7 +9,7 @@ const modal = document.getElementById("modal-root");
 
 const Modal = () => {
     const [visible, setVisible] = useState(false);
-    const [opacity, setOpacity] = useState(true);
+    const [opacity, setOpacity] = useState(false);
     const realTime = new Date();
     const minutes = realTime.getMinutes() < 10 ? `0${realTime.getMinutes()}` : realTime.getMinutes();
 
@@ -18,6 +18,9 @@ const Modal = () => {
     }
 
     useEffect(() => {
+        setTimeout(() => setOpacity(true), 500000)
+
+
         const handleScroll = () => {
             const isAtBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
 
@@ -87,9 +90,9 @@ const Modal = () => {
                 }
                 {
                     opacity &&
-                        <div className={styles.modal} onClick={handleClick}>
-                            <img src={icon} alt="iconChat" />
-                        </div>
+                    <div className={`${styles.modal} ${opacity ? styles.opacity: ''}`} onClick={handleClick}>
+                        <img src={icon} alt="iconChat" />
+                    </div>
                 }
 
             </>
